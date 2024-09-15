@@ -12,7 +12,19 @@ export default defineConfig({
       fileName: () => `index.cjs`,
     },
     rollupOptions: {
-      external: ["fs", "path"],
+      external: [
+        "fs",
+        "path",
+        "node-fetch",
+        "http",
+        "https",
+        "zlib",
+        "stream",
+        "util",
+        "buffer",
+        "url",
+        "net",
+      ],
       output: {
         format: "cjs",
       },
