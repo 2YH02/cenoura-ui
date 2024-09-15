@@ -1,4 +1,4 @@
-## cenoura-ui
+# cenoura-ui
 
 cenoura-ui is a CLI-based UI component library that allows you to easily add pre-built components to your project.
 
